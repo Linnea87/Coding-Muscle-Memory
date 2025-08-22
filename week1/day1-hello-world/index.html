@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Day 1 – Hello World</title>
+</head>
+<body>
+  <h1>Hello, World!</h1>
+  <p>This is my very first exercise in coding-muscle-memory 🚀</p>
+
+  <p id="output">Waiting for interaction...</p>
+
+  <button onclick="sayHello()">Console Hello</button>
+  <button onclick="showMessage()">Show message</button>
+
+  <script>
+    // Kör direkt när sidan laddas
+    console.log("Hello, World! from JavaScript 🚀");
+
+    function sayHello() {
+      console.log("Hello again from the button! 🎉");
+    }
+
+    function showMessage() {
+      document.getElementById("output").textContent = "Hello from JavaScript!";
+    }
+  </script>
+</body>
+</html>

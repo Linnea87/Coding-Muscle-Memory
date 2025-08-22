@@ -18,11 +18,14 @@
     console.log("Hello, World! from JavaScript 🚀");
 
     function sayHello() {
-      console.log("Hello again from the button! 🎉");
+      const msg = "Hello again from the button! 🎉";
+      console.log(msg);
+      document.getElementById("output").textContent = msg; // uppdaterar sidan också
     }
 
     function showMessage() {
-      document.getElementById("output").textContent = "Hello from JavaScript!";
+      const msg = "Hello from JavaScript!";
+      document.getElementById("output").textContent = msg;
     }
   </script>
 </body>

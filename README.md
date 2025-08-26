@@ -24,5 +24,24 @@ Start with HTML + JavaScript basics.
 - Handling button clicks with `onclick`.  
 
 ---
+### Day 2 – JS Basics
+**Goal:**  
+Practice fundamental JavaScript concepts.
+
+**What the exercise does:**  
+- Logs a message using variables and template literals.  
+- Calls a function that returns a value and updates the DOM.  
+- Uses an array with `map` and `filter` to transform data and display the result.  
+
+**What I practiced:**  
+- Declaring variables with `let` and `const`.  
+- Using template literals with backticks.  
+- Writing and calling functions.  
+- Updating the DOM with `.textContent`.  
+- Working with arrays (`map`, `filter`).  
+- Adding multiple event listeners.
+
+
+
 
 (more days/exercises will be added as I go 🚀)

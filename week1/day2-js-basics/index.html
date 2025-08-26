@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2 - JS Basics</title>
+</head>
+<body>
+    <h1>Day 2 - Js Basics</h1>
+    <p id="output">Click a button to run some JavaScript...</p>
+
+    <button id="btnVars">Variables & templates string</button>
+    <button id="btnFunc">Function & DOM update</button>
+    <button id="btnArray">Arry (map/filter)</button>
+
+    <!-- Script at the bottom so DOM is ready -->
+    <script>
+        const out = document.getElementById("output");
+
+        // 1) Variabler + template literals
+        document.getElementById("btnVars").addEventListener("click", () => {
+            let lang = "JavaScript";
+            const level = 2;
+            const msg = `Hello from ${lang} - Day ${level}!`;
+            console.log(msg);
+            out.textContent = msg;
+        });
+
+        // 2) Functio that returns a value and updates the DOM
+        function greet(name) {
+            return `Hi, ${name}! keep going 🚀`;
+        }
+        document.getElementById("btnFunc").addEventListener("click", () => {
+            const result = greet("Linnéa");
+            console.log("result");
+            out.textContent = result;
+        });
+
+        // 3) Array: Map + filter
+        document.getElementById("btnArray").addEventListener("click", () => {
+            const nums = [1,2,3,4,5];
+            const doubledEven = nums.map(n => n * 2).filter(n => n % 4 === 0);
+            console.log("Original", nums, "→ doubledEven:", doubledEven);
+            out.textContent = `Array result: [${doubledEven.join(", ")}]`;
+        });
+    </script>
+</body>
+</html>

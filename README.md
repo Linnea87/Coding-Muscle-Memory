@@ -62,5 +62,24 @@ Build a small to-do app to practice DOM manipulation, event handling, and persis
 
 **Path:** week1/day3-to-do-app/  
 
+### Day 4 – Git Branch Test  
+**Goal:**  
+Practice creating and working with Git branches.  
+
+**What the exercise does:**  
+- Created a new branch `feature/day4-git-branch-test`  
+- Added a simple HTML page (`index.html`) to test branching workflow  
+- Committed and pushed the branch  
+- Merged changes back into `main`  
+
+**What I practiced:**  
+- Creating and switching branches (`git checkout -b`)  
+- Adding and committing changes on a feature branch  
+- Pushing a branch to GitHub (`git push -u origin branch-name`)  
+- Merging a feature branch into `main`  
+- Keeping the repo organized by day-specific folders  
+
+**Path:** week1/day4-git-branch-test/  
+
 
 (more days/exercises will be added as I go 🚀)

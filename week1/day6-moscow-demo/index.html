@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Day 6 - MoSCoW Demo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="style.css" rel="stylesheet" />
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <h1>Day 6 - MoSCoW Demop</h1>
+        <p class="muted">
+            Prioritize tasks as <strong>Must</strong>, ><strong>Should</strong>, 
+            <strong>Could</strong>, or <strong>Won't</strong>
+        </p>
+
+        <div class="row">
+            <input id="itemInput" type="text" placeholder="Describe a task..." />
+            <select id="prioSelect">
+                <option value="must">Must</option>
+                <option value="should">Should</option>
+                <option value="could">Could</option>
+                <option value="wont't">Wont't</option>
+            </select>
+            <button id="addBtn" class="primary">Add</button>
+        </div>
+
+        <div class="board">
+            <section data-col="must">
+                <h2>Must</h2>
+                <ul id="mustList" class="list"></ul>
+            </section>
+            <section data-col="should">
+                <h2>Should</h2>
+                <ul id="shouldList" class="list"></ul>
+            </section>
+            <section data-col="could">
+                <h2>Could</h2>
+                <ul id="couldList" class="list"></ul>
+            </section>
+            <section data-col="wont">
+                <h2>Won't</h2>
+                <ul id="wontList" class="list"></ul>
+            </section>
+        </div>
+        <p class="small muted">
+            Tip: Click an item to cycle its priority(Must → Should → Could → Won’t → Must).
+        </p>
+    </body>
+</html>

@@ -81,5 +81,19 @@ Practice creating and working with Git branches.
 
 **Path:** week1/day4-git-branch-test/  
 
+### Day 5 – Codewars  
+**Goal:**  
+Practice solving coding challenges on Codewars and save solutions for reference.  
+
+**What the exercise does:**  
+- Implemented a simple function (`sum`) that returns the sum of two numbers  
+- Ran the solution locally with Node.js to verify output  
+
+**What I practiced:**  
+- Writing functions in JavaScript  
+- Running and testing code locally with Node.js  
+- Using basic assertions to check expected results  
+
+**Path:** week1/day5-codewars/  
 
 (more days/exercises will be added as I go 🚀)

@@ -96,4 +96,25 @@ Practice solving coding challenges on Codewars and save solutions for reference.
 
 **Path:** week1/day5-codewars/  
 
+### Day 6 – MoSCoW Demo  
+**Goal:**  
+Practice the MoSCoW prioritization technique and build an interactive demo with JavaScript.  
+
+**What the exercise does:**  
+- Add items with a text and assign them to one of four priorities (Must, Should, Could, Won’t)  
+- Displays items in four separate columns  
+- Items can change priority by clicking them or using the cycle button  
+- Items can be deleted individually  
+- All data is persisted using localStorage  
+- App split into index.html, style.css, and app.js  
+
+**What I practiced:**  
+- Creating multi-column layouts with CSS Grid  
+- Using select inputs and dynamically appending list items in the DOM  
+- Cycling state through a helper function (`nextPrio`)  
+- Adding event listeners to both items and buttons  
+- Persisting and re-rendering structured data with localStorage  
+
+**Path:** week1/day6-moscow-demo/  
+
 (more days/exercises will be added as I go 🚀)

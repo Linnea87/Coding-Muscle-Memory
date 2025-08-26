@@ -41,7 +41,26 @@ Practice fundamental JavaScript concepts.
 - Working with arrays (`map`, `filter`).  
 - Adding multiple event listeners.
 
+### Day 3 – To-Do App  
+**Goal:**  
+Build a small to-do app to practice DOM manipulation, event handling, and persistence.  
 
+**What the exercise does:**  
+- Add tasks via button or Enter  
+- Toggle tasks as done/undone  
+- Delete tasks, clear completed, or clear all (with confirm)  
+- Persist list using localStorage  
+- Split code into index.html, style.css, and app.js  
+
+**What I practiced:**  
+- Selecting and updating DOM nodes  
+- Handling multiple events (click, keydown for Enter)  
+- Working with arrays of objects to represent tasks  
+- Rendering lists and syncing UI ↔ state  
+- Simple ID generation with Date.now().toString()  
+- Saving and loading data with localStorage  
+
+**Path:** week1/day3-to-do-app/  
 
 
 (more days/exercises will be added as I go 🚀)

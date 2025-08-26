@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Day 3 - To-Do App</title>
+</head>
+<body>
+    <h1>Day 3 - To-Do App</h1>
+    <p class="muted">Add tasks, toggle done, delete, and your list is saved with <code>localStorage</code>.</p>
+
+    <div class="row">
+        <input id="todoInput" type="text" placeholder="What  do you need to do?">
+        <button id="addBtn" class="primary">Add</button>
+    </div>
+
+    <div class="toolbar">
+        <button id="clearDoneBtn" class="ghost small">Clear completed</button>
+        <button id="clearAllBtn" class="danger small">Clear all</button>
+        <span class="counter small" id="counter">0 open / 0 total</span>
+    </div>
+
+    <ul id="list"></ul>
+</body>
+</html>

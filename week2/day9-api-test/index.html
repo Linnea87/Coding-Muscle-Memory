@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 9 - API Test</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Day 9 - API Test (Agifay)</h1>
+    <p class="muted">Type a name and fetch the predicted age from <code>agify.io</code>.</p>
+
+    <div class="row">
+        <input type="text" id="nameInput" placeholder="Enter a name (e.g. linnea)">
+        <button id="fetchBtn" class="primary">Fetch age</button>
+    </div>
+
+    <div id="result" class="card hidden">
+        <h2 id="resName">Name: -</h2>
+        <p id="resAge">Age: -</p>
+        <p id="resCount" class="small muted">Count: -</p>
+    </div>
+
+    <p id="error" class="error hidden"></p>
+</body>
+</html>

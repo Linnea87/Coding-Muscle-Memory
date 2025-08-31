@@ -197,6 +197,27 @@ Practice building a responsive page layout using CSS Grid and Flexbox.
 - Creating responsive breakpoints with `@media` queries  
 - Organizing semantic HTML elements (`header`, `nav`, `main`, `aside`, `footer`)  
 
-**Path:** week2/day10-layout-practice/  
+**Path:** week2/day10-layout-practice/ 
+
+---
+### Day 11 – Fetch Data  
+**Goal:**  
+Practice fetching and rendering a list of items from an API with loading, error handling, search, and pagination.  
+
+**What the exercise does:**  
+- Fetches posts from **[JSONPlaceholder](https://jsonplaceholder.typicode.com/)**  
+- Displays them as a list with title and body  
+- Search input filters posts by title  
+- Pagination buttons (Prev/Next) to navigate through pages (10 items per page)  
+- Shows loading status and error message if fetch fails  
+
+**What I practiced:**  
+- Using `fetch` with async/await to get remote JSON data  
+- Handling errors with try/catch and status updates  
+- Filtering arrays dynamically from user input  
+- Implementing simple pagination logic  
+- Separating concerns into helper functions (`applyFilter`, `render`, etc.)  
+
+**Path:** week2/day11-fetch-data/  
 
 (more days/exercises will be added as I go 🚀)

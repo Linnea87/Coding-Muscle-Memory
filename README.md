@@ -141,4 +141,23 @@ Play with CSS effects and animations to get comfortable styling UI elements.
 **Path:** week1/day7-fun-css/
 
 ---
+### Day 8 – Counter  
+**Goal:**  
+Build a simple interactive counter with JavaScript.  
+
+**What the exercise does:**  
+- Displays a number that can be increased or decreased  
+- Buttons for `+`, `-`, and `Reset`  
+- Updates the DOM dynamically when buttons are clicked  
+- Keeps logic clean and separated in `app.js` with rendering function  
+
+**What I practiced:**  
+- Selecting DOM elements with `getElementById`  
+- Updating the DOM with `.textContent`  
+- Handling `click` events with `addEventListener`  
+- Writing a simple `render()` function to keep UI in sync with state  
+- Organizing files into `index.html`, `style.css`, and `app.js`  
+
+**Path:** week2/day8-counter/  
+
 (more days/exercises will be added as I go 🚀)

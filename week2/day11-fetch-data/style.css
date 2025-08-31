@@ -1,0 +1,93 @@
+:root {
+    --gap: .6rem
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    margin: 2rem;
+    color: #111;
+}
+
+h1 {
+    margin-bottom: .4rem;
+}
+
+.muted {
+    opacity: .75;
+}
+
+.toolbar {
+    display: flex;
+    gap: var(--gap);
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.toolbar input {
+    flex: 1;
+    padding: .6rem .8rem;
+    border: 1px solid #ddd;
+    border-radius: .6rem;
+}
+
+.status {
+    font-size: .9rem;
+    opacity: .75;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: .6rem;
+}
+
+.list li {
+    border: 1px solid #eee;
+    border-radius: .6rem;
+    padding: .6rem .8rem;
+    background: #fafafa;
+}
+
+list h3 {
+    margin: 0 0 .25rem;
+    font-size: 1rem;
+}
+
+.pager { 
+    display: flex; 
+    align-items: center; 
+    gap: .6rem;
+    margin-top: 1rem; 
+}
+
+.pager button { 
+    padding: .4rem .8rem; 
+    border: 0; 
+    border-radius: .5rem; 
+    background: #3b82f6; 
+    color: #fff; 
+    cursor: pointer;
+}
+
+.pager button:disabled {
+    opacity: .5; 
+    cursor: not-allowed; 
+}
+
+.error { 
+    color: #b91c1c; 
+    background: #fee2e2; 
+    padding: .6rem .8rem; 
+    border-radius: .6rem; 
+}
+
+.hidden { 
+    display: none; 
+}
+

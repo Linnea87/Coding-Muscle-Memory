@@ -1,0 +1,94 @@
+body {
+    font-family: system-ui, sans-serif;
+    margin: 2rem;
+    background: #f9fafb;
+    color: #111;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+.muted {
+    opacity: 0.7;
+}
+
+.demo {
+    display: flex;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.btn {
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    font-size: 1rem;
+    background: #3b82f6;
+    color: #fff;
+    transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+/* Bounce */
+.bounce:hover {
+    animation: bounce 0.6s;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Glow */
+.glow:hover {
+    box-shadow: 0 0 10px #3b82f6, 0 0 20px #60a5fa;
+}
+
+/* Rainbow */
+.rainbow {
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 400% 400%;
+    animation: rainbowAnim 6s linear infinite;
+}
+
+@keyframes rainbowAnim {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+/* Flip card */
+.card {
+    width: 200px;
+    height: 120px;
+    perspective: 1000px;
+}
+
+.card h2, .card p {
+    margin: 0.5rem;
+}
+
+.card {
+    background: white;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}

@@ -180,4 +180,23 @@ Practice fetching data from an open API and updating the DOM with the results.
 
 **Path:** week2/day9-api-test/  
 
+---
+### Day 10 – Layout Practice  
+**Goal:**  
+Practice building a responsive page layout using CSS Grid and Flexbox.  
+
+**What the exercise does:**  
+- Basic page with header, navigation, main content, sidebar, and footer  
+- Uses **CSS Grid** for overall page structure  
+- Navigation styled with **Flexbox** for horizontal links  
+- Responsive design: layout collapses into a single column on small screens  
+
+**What I practiced:**  
+- Defining grid areas with `grid-template-areas`  
+- Combining Grid for page structure and Flexbox for smaller components  
+- Creating responsive breakpoints with `@media` queries  
+- Organizing semantic HTML elements (`header`, `nav`, `main`, `aside`, `footer`)  
+
+**Path:** week2/day10-layout-practice/  
+
 (more days/exercises will be added as I go 🚀)

@@ -41,6 +41,7 @@ Practice fundamental JavaScript concepts.
 - Working with arrays (`map`, `filter`).  
 - Adding multiple event listeners.
 
+---
 ### Day 3 – To-Do App  
 **Goal:**  
 Build a small to-do app to practice DOM manipulation, event handling, and persistence.  
@@ -62,6 +63,7 @@ Build a small to-do app to practice DOM manipulation, event handling, and persis
 
 **Path:** week1/day3-to-do-app/  
 
+---
 ### Day 4 – Git Branch Test  
 **Goal:**  
 Practice creating and working with Git branches.  
@@ -81,6 +83,7 @@ Practice creating and working with Git branches.
 
 **Path:** week1/day4-git-branch-test/  
 
+---
 ### Day 5 – Codewars  
 **Goal:**  
 Practice solving coding challenges on Codewars and save solutions for reference.  
@@ -96,6 +99,7 @@ Practice solving coding challenges on Codewars and save solutions for reference.
 
 **Path:** week1/day5-codewars/  
 
+---
 ### Day 6 – MoSCoW Demo  
 **Goal:**  
 Practice the MoSCoW prioritization technique and build an interactive demo with JavaScript.  
@@ -117,6 +121,7 @@ Practice the MoSCoW prioritization technique and build an interactive demo with 
 
 **Path:** week1/day6-moscow-demo/  
 
+---
 ### Day 7 – Fun CSS  
 **Goal:**  
 Play with CSS effects and animations to get comfortable styling UI elements.
@@ -135,4 +140,5 @@ Play with CSS effects and animations to get comfortable styling UI elements.
 
 **Path:** week1/day7-fun-css/
 
+---
 (more days/exercises will be added as I go 🚀)

@@ -1,0 +1,46 @@
+body {
+    font-family: system-ui, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #f9fafb;
+    color: #111;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+.muted {
+    opacity: 0.7;
+    margin-bottom: 1rem;
+}
+
+.counter-box {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e5e7eb;
+}
+
+#count {
+    font-weight: bold;
+    min-width: 2rem;
+    text-align: center;
+}

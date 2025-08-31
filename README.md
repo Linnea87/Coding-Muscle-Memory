@@ -160,4 +160,24 @@ Build a simple interactive counter with JavaScript.
 
 **Path:** week2/day8-counter/  
 
+---
+### Day 9 – API Test  
+**Goal:**  
+Practice fetching data from an open API and updating the DOM with the results.  
+
+**What the exercise does:**  
+- User can type a name into an input field  
+- On button click (or pressing Enter), the app fetches data from **[Agify.io](https://agify.io/)**  
+- Displays the predicted age, name, and count of entries in a styled card  
+- Handles errors gracefully and shows a message if something goes wrong  
+
+**What I practiced:**  
+- Using the `fetch` API with async/await  
+- Handling user input and validating empty values  
+- Error handling for network/API failures  
+- Updating the DOM dynamically with fetched JSON data  
+- Organizing code into `index.html`, `style.css`, and `app.js`  
+
+**Path:** week2/day9-api-test/  
+
 (more days/exercises will be added as I go 🚀)

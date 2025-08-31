@@ -117,4 +117,22 @@ Practice the MoSCoW prioritization technique and build an interactive demo with 
 
 **Path:** week1/day6-moscow-demo/  
 
+### Day 7 – Fun CSS  
+**Goal:**  
+Play with CSS effects and animations to get comfortable styling UI elements.
+
+**What the exercise does:**  
+- Three playful buttons with different hover effects (bounce, glow, rainbow background)  
+- A simple flip card using `transform` and `transition`  
+- Responsive layout with clean, minimal styling
+
+**What I practiced:**  
+- CSS transitions and keyframe animations  
+- Gradients and animated backgrounds  
+- Hover states and pseudo-classes  
+- 3D transforms (`transform: rotateY`, `perspective`)  
+- Organizing styles in a separate `style.css`
+
+**Path:** week1/day7-fun-css/
+
 (more days/exercises will be added as I go 🚀)
